@@ -1,14 +1,10 @@
-let x :number = +prompt('Введіть число:');
-if (x >= 1 && x <= 15)
-{
-    console.log('first half')
+let day:number = +prompt('Введіть число:');
+if (day >= 1 && day <= 10) {
+    console.log('first decade');
 }
-else if (x > 15 && x <= 30 ){
-    console.log('second half')
+else if (day > 10 && day <= 20 ) {
+    console.log('second decade');
 }
-else if (x > 30 && x <= 45){
-    console.log('third half')
-}
-else if (x > 45 && x <= 60){
-    console.log('fourth half')
+else if (day > 20 && day <= 31 ) {
+    console.log('third decade');
 }

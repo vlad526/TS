@@ -1,5 +1,6 @@
-let firstname: string = 'Vladyslav';
-let middlename: string = 'Volodymyrovych';
-let lastname: string = 'Shhustakevych';
-let person: string = `${firstname} ${middlename} ${lastname}`;
-console.log(person);
+let i:number = 0;
+while (i < 20) {
+    document.write(`<h1>user ${i}</h1>`);
+    i++;
+}
+

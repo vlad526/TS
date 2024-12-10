@@ -1,14 +1,24 @@
-let x :number = +prompt('Введіть число:');
-if (x >= 1 && x <= 15)
-{
-    console.log('first half')
-}
-else if (x > 15 && x <= 30 ){
-    console.log('second half')
-}
-else if (x > 30 && x <= 45){
-    console.log('third half')
-}
-else if (x > 45 && x <= 60){
-    console.log('fourth half')
+let Day :number = +prompt('Введіть порядковий номер:');
+switch (Day){
+    case 1:
+        console.log('Monday');
+        break;
+    case 2:
+        console.log('Tuesday');
+        break;
+    case 3:
+        console.log('Wednesday');
+        break;
+    case 4:
+        console.log('Thursday');
+        break;
+    case 5:
+        console.log('Friday');
+        break;
+    case 6:
+        console.log('Saturday');
+        break;
+    case 7:
+        console.log('Sunday');
+        break;
 }

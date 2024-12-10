@@ -1,14 +1,12 @@
-let x :number = +prompt('Введіть число:');
-if (x >= 1 && x <= 15)
-{
-    console.log('first half')
+let a :number=+prompt('Введіть перше число:')
+let b :number=+prompt('Введіть друге число:')
+
+if (a > b){
+    console.log(a,'is bigger')
 }
-else if (x > 15 && x <= 30 ){
-    console.log('second half')
+else if (a < b){
+    console.log(b,'is bigger')
 }
-else if (x > 30 && x <= 45){
-    console.log('third half')
-}
-else if (x > 45 && x <= 60){
-    console.log('fourth half')
+else if (a === b){
+    console.log('Equal')
 }

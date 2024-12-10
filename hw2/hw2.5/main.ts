@@ -1,23 +1,52 @@
-interface Book{
-    title: string;
-    pagecount: number;
-    genre: string;
+interface Temp {
+    dayOftheWeek: string;
+    morningTemperature: number;
+    dayTemperature: number;
+    nightTemperature: number;
 }
-let book1 :Book = {
-    title:'Harry Potter',
-    pagecount:150,
-    genre:'Fantasy'
-}
-let book2 :Book= {
-    title:'1984',
-    pagecount:200,
-    genre:'Dystopian'
-}
-let book3 :Book= {
-    title:'Dead Souls',
-    pagecount:100,
-    genre:'Fantasy'
-}
-console.log(book1);
-console.log(book2);
-console.log(book3);
+
+let a:Temp []=[
+    {
+        dayOftheWeek: 'Monday',
+        morningTemperature: +10,
+        dayTemperature: +15,
+        nightTemperature: +10
+    },
+    {
+        dayOftheWeek:'Tuesday',
+        morningTemperature: +15,
+        dayTemperature: +10,
+        nightTemperature: +5
+    },
+    {
+        dayOftheWeek: 'Wednesday',
+        morningTemperature: +10,
+        dayTemperature: +15,
+        nightTemperature: +9
+    },
+    {
+        dayOftheWeek: 'Tuesday',
+        morningTemperature: +9,
+        dayTemperature: +6,
+        nightTemperature: +9
+    },
+    {
+        dayOftheWeek: 'Friday',
+        morningTemperature: +7,
+        dayTemperature: +5,
+        nightTemperature: +9
+    },
+    {
+        dayOftheWeek: 'Saturday',
+        morningTemperature: +8,
+        dayTemperature: +5,
+        nightTemperature: +8
+    },
+    {
+        dayOftheWeek: 'Sunday',
+        morningTemperature: +9,
+        dayTemperature: +6,
+        nightTemperature: +9
+    }
+]
+console.log(a);

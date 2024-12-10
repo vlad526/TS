@@ -1,5 +1,13 @@
-let firstname: string = 'Vladyslav';
-let middlename: string = 'Volodymyrovych';
-let lastname: string = 'Shhustakevych';
-let person: string = `${firstname} ${middlename} ${lastname}`;
-console.log(person);
+let listOfItems :string[] =  ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+
+document.write(`<ul>`);
+
+for (const item of listOfItems) {
+    document.write(
+        `
+            <li>${item}</li>
+        `
+    )
+
+}
+document.write(`</ul>`);

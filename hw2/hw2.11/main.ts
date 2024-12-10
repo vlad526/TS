@@ -1,14 +1,6 @@
-let x :number = +prompt('Введіть число:');
-if (x >= 1 && x <= 15)
-{
-    console.log('first half')
+let x:number = 0;
+let a:string;
+if (!x) {
+    a = 'default';
 }
-else if (x > 15 && x <= 30 ){
-    console.log('second half')
-}
-else if (x > 30 && x <= 45){
-    console.log('third half')
-}
-else if (x > 45 && x <= 60){
-    console.log('fourth half')
-}
+console.log(a);

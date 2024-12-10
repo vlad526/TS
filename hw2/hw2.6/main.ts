@@ -1,23 +1,7 @@
-interface Book{
-    title: string;
-    pagecount: number;
-    genre: string;
+let x:number = +prompt('Введіть: 1 або 0 або -3')
+if (x !== 0){
+    console.log(true)
 }
-let book1 :Book = {
-    title:'Harry Potter',
-    pagecount:150,
-    genre:'Fantasy'
+else{
+    console.log(false)
 }
-let book2 :Book= {
-    title:'1984',
-    pagecount:200,
-    genre:'Dystopian'
-}
-let book3 :Book= {
-    title:'Dead Souls',
-    pagecount:100,
-    genre:'Fantasy'
-}
-console.log(book1);
-console.log(book2);
-console.log(book3);

@@ -1,5 +1,3 @@
-let firstname: string = 'Vladyslav';
-let middlename: string = 'Volodymyrovych';
-let lastname: string = 'Shhustakevych';
-let person: string = `${firstname} ${middlename} ${lastname}`;
-console.log(person);
+for (let i:number = 0; i < 10; i++) {
+    document.write('<div>user</div>');
+}
